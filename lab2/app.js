@@ -229,11 +229,7 @@
     }
 
     function changeStateForClear() {
-        if(state === 3) {
-
-        } else if(state === 2) {
-
-        } else if(state === 1) {
+        if(state === 1) {               // 其他状态无需操作
             clearInterval(timer);
             clearTimeout(smallTimer);
         }
@@ -254,10 +250,6 @@
         if(state === 1) {
             clearInterval(timer);
             clearTimeout(smallTimer);
-        } else if(state === 2) {
-
-        } else if(state === 3) {
-
         }
         state = 1;
         if(up === true) {
