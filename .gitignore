@@ -1,0 +1,12 @@
+# lab1
+lab1/*
+!lab1/font/
+!index.html
+!style.css
+
+# lab2
+lab2/*
+!lab2/font/
+!lab2/index.html
+!lab2/style.css
+!lab2/app.js

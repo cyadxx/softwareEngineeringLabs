@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <title>timer</title>
+        <script src="./app.js" async></script>
+    </head>
+    <body>
+        <div class="toolbar">
+            <span class="hint" id="hint">正在倒计时 00:00:00</span>
+            <input class="hour" id="hour" type="text" placeholder="0" name="hour" size="4">
+            <label for="hour" class="hour-label">时</label>
+            <input class="minute" id="minute" type="text" placeholder="0" name="minute" size="4">
+            <label for="minute" class="minute-label">分</label>
+            <input class="second" id="second" type="text" placeholder="0" name="second" size="4">
+            <label for="second" class="second-label">秒</label>
+            <input type="button" value="开始正计时" id="countup" class="countup" name="countup">
+            <input type="button" value="开始倒计时" id="countdown" class="countdown" name="countdown">
+            <input type="button" value="暂停计时器" id="pause" class="pause" name="pause">
+            <input type="button" value="恢复计时器" id="resume" class="resume" name="resume">
+            <input type="button" value="清空倒计时" id="clear" class="clear" name="clear">
+            <input type="button" value="重新再计时" id="restart" class="restart" name="restart">
+        </div>
+        <div class="time">
+            00:00:00
+        </div>
+    </body>
+</html>

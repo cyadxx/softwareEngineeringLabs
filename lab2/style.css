@@ -1,0 +1,119 @@
+@font-face {
+    font-family: PingFangSC-Regular;
+    src: url("./font/PingFangSCRegular.ttf");
+}
+
+.toolbar {
+    width: 1140px;
+    height: 70px;
+    padding: 0 40px 0 40px;
+    background-color: #97A5BC;
+    display: flex;
+    flex-direction: row;
+}
+
+.toolbar > label {
+    font-family: PingFangSC-Regular, "PingFang SC", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #222222;
+    height: 40px;
+    line-height: 40px;
+    margin: 15px 20px 15px 0;
+    position: absolute;
+}
+
+.hour-label {
+    left: 93px;
+}
+
+.minute-label {
+    left: 183px;
+}
+
+.second-label {
+    left: 273px;
+}
+
+
+.toolbar > input {
+    font-family: PingFangSC-Regular, "PingFang SC", sans-serif;
+    height: 40px;
+    border-radius: 5px;
+    border-width: 0;
+    text-align: left;
+    font-size: 16px;
+}
+
+input::placeholder {
+    padding: 0 0 0 9px;
+    color: #AFAFAF;
+}
+
+.toolbar > input[type="button"] {
+    text-align: center;
+}
+
+.hour,
+.minute,
+.second {
+    flex-basis: 70px;
+    background-color: white;
+    margin: 15px 20px 15px 0;
+}
+
+.countup,
+.countdown,
+.pause,
+.resume {
+    flex-basis: 98px;
+    background-color: #2188E9;
+    color: white;
+    margin: 15px 20px 15px 0;
+}
+
+.clear {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    color: #FFFFFF;
+    background-color: #DD2E1D;
+}
+
+.restart {
+    margin: 15px 0 15px 20px;
+    color: #FFFFFF;
+    background-color: #FFB020;
+}
+
+.hint {
+    font-family: PTMono-Regular, "PT Mono", PingFangSC-Regular, "PingFang SC", sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    height: 40px;
+    line-height: 40px;
+    margin: 15px 20px 15px 0;
+}
+
+
+@font-face {
+    font-family: "PT Mono";
+    src: url("./font/PTM55F.ttf");
+}
+
+@font-face {
+    font-family: "PTMono-Bold";
+    src: url("./font/PTM75F.ttf");
+}
+
+.time {
+    font-family: PTMono-Bold, "PT Mono", monospace;
+    font-weight: 700;
+    font-size: 200px;
+    text-align: center;
+    line-height: 454px;
+    width: 1140px;
+    height: 440px;
+    background-color: #F2F4F7;
+    padding: 0 40px 0 40px;
+}
